@@ -10,7 +10,8 @@ func main () {
 	x := retornafunc()
 	y := x(3)
 	fmt.Println(y)
-
+	
+	//outra maneira de declarar 
 	fmt.Println(retornafunc()(5))
 }
 
